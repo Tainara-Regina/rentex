@@ -1,7 +1,7 @@
 // aqui eu instancio tudo o que preciso
 // e exporto tudo pra pegar na rota
 
-import { CategoriesRepository } from "../../repositores/CategoriesRepository";
+import { CategoriesRepository } from "../../repositores/implementations/CategoriesRepository";
 import { ListCategoriesController } from "./ListCategoriesController";
 import { ListCategoriesUseCase } from "./listCategoriesUseCase";
 
